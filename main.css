@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.seeMore {
+    display: block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    width: 150px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
